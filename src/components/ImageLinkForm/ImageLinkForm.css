@@ -1,0 +1,13 @@
+.form {
+  width: 700px;
+  background-color: #47997e;
+  opacity: 1;
+  background-image:  radial-gradient(#cce2db 0.75px, transparent 0.75px), radial-gradient(#cce2db 0.75px, #47997e 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0,15px 15px;
+}
+
+button {
+  background: #00724D;
+  border: none;
+}

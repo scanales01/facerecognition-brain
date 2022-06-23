@@ -1,0 +1,81 @@
+{
+  "fpsLimit": 60,
+  "interactivity": {
+    "detect_on": "window",
+    "events": {
+      "onDiv": {
+        "enable": true,
+        "selectors": ".bounce",
+        "mode": "bounce",
+        "type": "rectangle"
+      },
+      "resize": true
+    },
+    "modes": {
+    }
+  },
+  "particles": {
+    "color": {
+      "value": "#44FFCF"
+    },
+    "links": {
+      "color": "#F0FCF7",
+      "distance": 90,
+      "enable": true,
+      "opacity": 0.5,
+      "shadow": {
+        "blur": 1,
+        "color": "#545479",
+        "enable": true
+      },
+      "triangles": {
+        "color": "#5F9C88",
+        "enable": false,
+        "opacity": 0.1
+      },
+      "warp": true,
+      "width": 2.5
+    },
+    "collisions": {
+      "enable": true,
+      "mode": "bounce"
+    },
+    "move": {
+      "direction": "none",
+      "enable": true,
+      "outModes": {
+        "default": "bounce"
+      },
+      "random": true,
+      "speed": 2,
+      "straight": false
+    },
+    "number": {
+      "density": {
+        "enable": true,
+        "area": 1000
+      },
+      "value": 100
+    },
+    "opacity": {
+      "value": {
+        "min": 0,
+        "max": 1
+      },
+      "animation": {
+        "enable": true,
+        "speed": 2,
+        "startValue": "random",
+        "destroy": "none"
+      }
+    },
+    "shape": {
+      "type": "polygon"
+    },
+    "size": {
+      "random": true,
+      "value": 5
+    }
+  },
+  "detectRetina": true
+}
